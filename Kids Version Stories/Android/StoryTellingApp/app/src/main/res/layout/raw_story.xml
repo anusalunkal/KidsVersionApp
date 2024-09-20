@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="8dp">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/storyCardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="12dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/storyImageView"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/logo" />
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="vertical"
+               android:paddingTop="5dp"
+               android:paddingLeft="8dp"
+               android:paddingRight="8dp"
+               android:paddingBottom="8dp">
+
+               <TextView
+                   android:id="@+id/storyTitleTextView"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="Title"
+                   android:textSize="18dp"
+                   android:textStyle="bold"
+                   android:textColor="@color/black" />
+
+               <TextView
+                   android:id="@+id/storyDescTextView"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="Descc"
+                   android:textSize="16dp"
+                   android:layout_marginTop="5dp"
+                   android:maxLines="3"/>
+           </LinearLayout>
+
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

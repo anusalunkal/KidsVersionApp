@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:paddingLeft="8dp"
+    android:paddingTop="8dp">
+
+    <LinearLayout
+        android:id="@+id/plotLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/card_bgg">
+
+        <TextView
+            android:id="@+id/plotTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Plot"
+            android:textColor="@color/blue"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="20dp"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

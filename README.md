@@ -15,7 +15,7 @@ Before you begin, ensure you have the following installed:
 3. **Clone the Git Repository**
    - Clone this repository to your local machine using the following command:
      ```bash
-     git clone https://github.com/your-username/your-repository-name.git
+     git clone https://github.com//anusalunkal/KidsVersionApp.git
      ```
 
 ## Steps to Run the App
